@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3bb4dacacf43532a01bf1d3d6dd3bbe1",
+    "content-hash": "e125f9e259513a2335c509c9c6ed31c9",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -1458,6 +1458,60 @@
                 "uuid"
             ],
             "time": "2020-02-21T04:36:14+00:00"
+        },
+        {
+            "name": "sertxudeveloper/lyra",
+            "version": "v0.0.1",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:sertxudeveloper/Lyra.git",
+                "reference": "b66080a62c03955d8b47d25f812cd46f23221b79"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sertxudeveloper/Lyra/zipball/b66080a62c03955d8b47d25f812cd46f23221b79",
+                "reference": "b66080a62c03955d8b47d25f812cd46f23221b79",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "laravel/framework": "^6.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "SertxuDeveloper\\Lyra\\LyraServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "SertxuDeveloper\\Lyra\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "SertxuDeveloper\\Lyra\\Tests\\": "tests/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Sertxu Developer",
+                    "email": "dev.sertxu@gmail.com"
+                }
+            ],
+            "description": "Lyra is an administration panel for Laravel for bootstrap your app and turn ideas into reality.",
+            "keywords": [
+                "admin",
+                "laravel",
+                "panel"
+            ],
+            "support": {
+                "source": "https://github.com/sertxudeveloper/Lyra/tree/master",
+                "issues": "https://github.com/sertxudeveloper/Lyra/issues"
+            },
+            "time": "2020-02-27T19:22:12+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
