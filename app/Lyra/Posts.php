@@ -5,6 +5,7 @@ namespace App\Lyra;
 use App\Post as Model;
 use SertxuDeveloper\Lyra\Fields\BelongsTo;
 use SertxuDeveloper\Lyra\Fields\BelongsToMany;
+use SertxuDeveloper\Lyra\Fields\Heading;
 use SertxuDeveloper\Lyra\Fields\Id;
 use SertxuDeveloper\Lyra\Fields\Image;
 use SertxuDeveloper\Lyra\Fields\Markdown;
@@ -40,7 +41,7 @@ class Posts extends Resource
       BelongsTo::make('Category')->setResource(Categories::class)->setDisplay('name'),
       BelongsToMany::make('Tags')->setResource(Tags::class)->setDisplay('name'),
       Text::make('Views')->hideOnCreate()->hideOnEdit()->sortable(),
-
+      Heading::make('Extra data'),
       Textarea::make('Excerpt')->hideOnIndex(),
       Markdown::make('Body'),
       Image::make('Poster')->prunable()->folder('posts')->hideOnIndex(),
