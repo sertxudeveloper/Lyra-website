@@ -3,6 +3,7 @@
 namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
+use Symfony\Component\Process\Process;
 
 class ResetAll extends Command
 {
@@ -37,9 +38,14 @@ class ResetAll extends Command
      */
     public function handle()
     {
-        $this->call('/opt/plesk/php/7.3/bin/php artisan migrate:fresh');
-        $this->call('/opt/plesk/php/7.3/bin/php artisan db:seed');
-        $this->call('rm -rf storage/app && cp -r storage/empty storage/app');
+        $process = new Process(['/opt/plesk/php/7.3/bin/php artisan migrate:fresh']);
+        $process->run();
+
+        $process = new Process(['/opt/plesk/php/7.3/bin/php artisan db:seed']);
+        $process->run();
+
+        $process = new Process(['rm -rf storage/app && cp -r storage/empty storage/app']);
+        $process->run();
         return true;
     }
 }
