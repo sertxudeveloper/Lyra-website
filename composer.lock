@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e125f9e259513a2335c509c9c6ed31c9",
+    "content-hash": "4bd7e2a21c4447912a02ab3c15590ff4",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -1461,20 +1461,21 @@
         },
         {
             "name": "sertxudeveloper/lyra",
-            "version": "v0.0.2",
+            "version": "v0.1.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:sertxudeveloper/Lyra.git",
-                "reference": "489aabde1c6233907dc488853ca72f0e5c07f085"
+                "reference": "069008de2bd4acc5432ed4d0e95c5fc4325d5f89"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sertxudeveloper/Lyra/zipball/489aabde1c6233907dc488853ca72f0e5c07f085",
-                "reference": "489aabde1c6233907dc488853ca72f0e5c07f085",
+                "url": "https://api.github.com/repos/sertxudeveloper/Lyra/zipball/069008de2bd4acc5432ed4d0e95c5fc4325d5f89",
+                "reference": "069008de2bd4acc5432ed4d0e95c5fc4325d5f89",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
+                "ext-zip": "*",
                 "laravel/framework": "^6.0"
             },
             "type": "library",
@@ -1508,10 +1509,10 @@
                 "panel"
             ],
             "support": {
-                "source": "https://github.com/sertxudeveloper/Lyra/tree/v0.0.2",
+                "source": "https://github.com/sertxudeveloper/Lyra/tree/v0.1.2",
                 "issues": "https://github.com/sertxudeveloper/Lyra/issues"
             },
-            "time": "2020-02-29T21:11:59+00:00"
+            "time": "2020-03-03T00:49:56+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -3109,23 +3110,23 @@
         },
         {
             "name": "facade/flare-client-php",
-            "version": "1.3.1",
+            "version": "1.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/facade/flare-client-php.git",
-                "reference": "24444ea0e1556f0a4b5fc8e61802caf72ae9a408"
+                "reference": "db1e03426e7f9472c9ecd1092aff00f56aa6c004"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/facade/flare-client-php/zipball/24444ea0e1556f0a4b5fc8e61802caf72ae9a408",
-                "reference": "24444ea0e1556f0a4b5fc8e61802caf72ae9a408",
+                "url": "https://api.github.com/repos/facade/flare-client-php/zipball/db1e03426e7f9472c9ecd1092aff00f56aa6c004",
+                "reference": "db1e03426e7f9472c9ecd1092aff00f56aa6c004",
                 "shasum": ""
             },
             "require": {
                 "facade/ignition-contracts": "~1.0",
-                "illuminate/pipeline": "~5.5|~5.6|~5.7|~5.8|^6.0",
+                "illuminate/pipeline": "^5.5|^6.0|^7.0",
                 "php": "^7.1",
-                "symfony/http-foundation": "~3.3|~4.1",
+                "symfony/http-foundation": "^3.3|^4.1|^5.0",
                 "symfony/var-dumper": "^3.4|^4.0|^5.0"
             },
             "require-dev": {
@@ -3159,7 +3160,7 @@
                 "flare",
                 "reporting"
             ],
-            "time": "2019-12-15T18:28:38+00:00"
+            "time": "2020-03-02T15:52:04+00:00"
         },
         {
             "name": "facade/ignition",
@@ -4265,16 +4266,16 @@
         },
         {
             "name": "scrivo/highlight.php",
-            "version": "v9.18.1.0",
+            "version": "v9.18.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/scrivo/highlight.php.git",
-                "reference": "a57c858cb753f543965a1e17af386a648012ed8f"
+                "reference": "52fc21c99fd888e33aed4879e55a3646f8d40558"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/scrivo/highlight.php/zipball/a57c858cb753f543965a1e17af386a648012ed8f",
-                "reference": "a57c858cb753f543965a1e17af386a648012ed8f",
+                "url": "https://api.github.com/repos/scrivo/highlight.php/zipball/52fc21c99fd888e33aed4879e55a3646f8d40558",
+                "reference": "52fc21c99fd888e33aed4879e55a3646f8d40558",
                 "shasum": ""
             },
             "require": {
@@ -4284,6 +4285,7 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^4.8|^5.7",
+                "sabberworm/php-css-parser": "^8.3",
                 "symfony/finder": "^2.8|^3.4",
                 "symfony/var-dumper": "^2.8|^3.4"
             },
@@ -4329,7 +4331,7 @@
                 "highlight.php",
                 "syntax"
             ],
-            "time": "2020-02-03T02:19:36+00:00"
+            "time": "2020-03-02T05:59:21+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
