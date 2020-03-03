@@ -3,6 +3,7 @@
 namespace App\Lyra;
 
 use App\Tag as Model;
+use SertxuDeveloper\Lyra\Fields\BelongsToManyInverse;
 use SertxuDeveloper\Lyra\Fields\HasMany;
 use SertxuDeveloper\Lyra\Fields\Id;
 use SertxuDeveloper\Lyra\Fields\Slug;
@@ -35,7 +36,7 @@ class Tags extends Resource
       Slug::make('Slug')->slugify('name'),
       Text::make('Post Count', 'posts_count')->hideOnShow(),
 
-      HasMany::make('Posts')->setResource(Posts::class)->setDisplay('title')
+      BelongsToManyInverse::make('Posts')->setResource(Posts::class)->setDisplay('title')
     ];
   }
 
