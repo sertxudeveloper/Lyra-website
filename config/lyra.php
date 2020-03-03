@@ -96,7 +96,7 @@ return [
 
   "profile_resource" => \SertxuDeveloper\Lyra\Http\Resources\LaravelProfile::class,
 
-  "dashboard" => null, // Add your Dashboard resource class
+  "dashboard" => \App\Lyra\Dashboards\Dashboard::class, // Add your Dashboard resource class
 
   "media_manager" => [
     "keep_original_name" => false,
@@ -123,6 +123,24 @@ return [
       "icon" => "fas fa-photo-video"
     ],
     /* Add your own resources here */
+    [
+      "name" => "Posts",
+      "key" => "posts",
+      "icon" => "fas fa-file-alt",
+      "resource" => \App\Lyra\Posts::class
+    ],
+    [
+      "name" => "Categories",
+      "key" => "categories",
+      "icon" => "fas fa-folder",
+      "resource" => \App\Lyra\Categories::class
+    ],
+    [
+      "name" => "Tags",
+      "key" => "tags",
+      "icon" => "fas fa-tag",
+      "resource" => \App\Lyra\Tags::class
+    ],
   ],
 
 ];
