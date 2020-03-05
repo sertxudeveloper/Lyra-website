@@ -38,8 +38,8 @@ class ResetAll extends Command
      */
     public function handle()
     {
-        $this->call('migrate:fresh --force');
-        $this->call('db:seed --force');
+        $this->call('migrate:fresh', ['--force']);
+        $this->call('db:seed', ['--force']);
         $process = new Process(['rm -rf storage/app && cp -r storage/empty storage/app']);
         $process->run();
         return true;
