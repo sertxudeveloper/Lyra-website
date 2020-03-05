@@ -42,6 +42,7 @@ class ResetAll extends Command
         $this->call('db:seed', ['--force' => true]);
         $process = new Process(['rm -rf storage/app && cp -r storage/empty storage/app']);
         $process->run();
+        echo $process->getOutput();
         return true;
     }
 }
