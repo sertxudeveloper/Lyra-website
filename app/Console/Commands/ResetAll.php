@@ -38,12 +38,8 @@ class ResetAll extends Command
      */
     public function handle()
     {
-        $process = new Process(['/opt/plesk/php/7.3/bin/php artisan migrate:fresh']);
-        $process->run();
-
-        $process = new Process(['/opt/plesk/php/7.3/bin/php artisan db:seed']);
-        $process->run();
-
+        $this->call('migrate:fresh --force');
+        $this->call('db:seed --force');
         $process = new Process(['rm -rf storage/app && cp -r storage/empty storage/app']);
         $process->run();
         return true;
