@@ -10,9 +10,4 @@ class Tag extends Model
     {
         return $this->belongsToMany(Post::class, 'post_tags');
     }
-
-    public function getPostsCountAttribute()
-    {
-        return $this->posts->count();
-    }
 }

@@ -10,9 +10,4 @@ class Category extends Model
     {
         return $this->hasMany(Post::class);
     }
-
-    public function getPostsCountAttribute()
-    {
-        return $this->posts->count();
-    }
 }

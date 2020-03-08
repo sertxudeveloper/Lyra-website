@@ -32,9 +32,11 @@ class Categories extends Resource {
       Id::make('Id')->sortable(),
       Text::make('Name'),
       Slug::make('Slug')->slugify('name'),
-      Text::make('Post Count', 'posts_count')->hideOnShow(),
+      Text::make('Post Count', function () {
+        return $this->posts->count();
+      }),
 
-      HasMany::make('Posts')->setResource(Posts::class)->setDisplay('title')
+      HasMany::make('Posts')->setResource(Posts::class)
     ];
   }
 

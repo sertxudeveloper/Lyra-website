@@ -3,8 +3,7 @@
 namespace App\Lyra;
 
 use App\Tag as Model;
-use SertxuDeveloper\Lyra\Fields\BelongsToManyInverse;
-use SertxuDeveloper\Lyra\Fields\HasMany;
+use SertxuDeveloper\Lyra\Fields\BelongsToManyTable;
 use SertxuDeveloper\Lyra\Fields\Id;
 use SertxuDeveloper\Lyra\Fields\Slug;
 use SertxuDeveloper\Lyra\Fields\Text;
@@ -34,9 +33,11 @@ class Tags extends Resource
       Id::make('Id')->sortable(),
       Text::make('Name'),
       Slug::make('Slug')->slugify('name'),
-      Text::make('Post Count', 'posts_count')->hideOnShow(),
+      Text::make('Post Count', function () {
+        return $this->posts->count();
+      }),
 
-      BelongsToManyInverse::make('Posts')->setResource(Posts::class)->setDisplay('title')
+      BelongsToManyTable::make('Posts')->setResource(Posts::class)
     ];
   }
 

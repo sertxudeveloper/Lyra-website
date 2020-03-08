@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b6e30a2bfa50f1d95db7ffa860625c22",
+    "content-hash": "b7a0d8e9db594255450017f1ab7852ab",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -758,16 +758,16 @@
         },
         {
             "name": "league/flysystem",
-            "version": "1.0.64",
+            "version": "1.0.65",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "d13c43dbd4b791f815215959105a008515d1a2e0"
+                "reference": "8f17b3ba67097aafb8318cd5c553b1acf7c891c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/d13c43dbd4b791f815215959105a008515d1a2e0",
-                "reference": "d13c43dbd4b791f815215959105a008515d1a2e0",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/8f17b3ba67097aafb8318cd5c553b1acf7c891c8",
+                "reference": "8f17b3ba67097aafb8318cd5c553b1acf7c891c8",
                 "shasum": ""
             },
             "require": {
@@ -838,7 +838,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2020-02-05T18:14:17+00:00"
+            "time": "2020-03-08T18:53:20+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -1511,22 +1511,25 @@
         },
         {
             "name": "sertxudeveloper/lyra",
-            "version": "v0.4.0",
+            "version": "v0.8.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:sertxudeveloper/Lyra.git",
-                "reference": "b7629d8217ea56e7808c6f5feb067324096f7b2b"
+                "reference": "51eb6956fbae1e9ec8e6e2d040118b3a1872b7ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sertxudeveloper/Lyra/zipball/b7629d8217ea56e7808c6f5feb067324096f7b2b",
-                "reference": "b7629d8217ea56e7808c6f5feb067324096f7b2b",
+                "url": "https://api.github.com/repos/sertxudeveloper/Lyra/zipball/51eb6956fbae1e9ec8e6e2d040118b3a1872b7ae",
+                "reference": "51eb6956fbae1e9ec8e6e2d040118b3a1872b7ae",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
                 "ext-zip": "*",
                 "laravel/framework": "^6.0"
+            },
+            "suggest": {
+                "sertxudeveloper/laravel-translatable": "Needed to add multilanguage support"
             },
             "type": "library",
             "extra": {
@@ -1559,10 +1562,10 @@
                 "panel"
             ],
             "support": {
-                "source": "https://github.com/sertxudeveloper/Lyra/tree/v0.4.0",
+                "source": "https://github.com/sertxudeveloper/Lyra/tree/v0.8.1",
                 "issues": "https://github.com/sertxudeveloper/Lyra/issues"
             },
-            "time": "2020-03-05T12:55:37+00:00"
+            "time": "2020-03-08T19:45:45+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -3868,16 +3871,16 @@
         },
         {
             "name": "phpspec/prophecy",
-            "version": "v1.10.2",
+            "version": "v1.10.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpspec/prophecy.git",
-                "reference": "b4400efc9d206e83138e2bb97ed7f5b14b831cd9"
+                "reference": "451c3cd1418cf640de218914901e51b064abb093"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/b4400efc9d206e83138e2bb97ed7f5b14b831cd9",
-                "reference": "b4400efc9d206e83138e2bb97ed7f5b14b831cd9",
+                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/451c3cd1418cf640de218914901e51b064abb093",
+                "reference": "451c3cd1418cf640de218914901e51b064abb093",
                 "shasum": ""
             },
             "require": {
@@ -3927,7 +3930,7 @@
                 "spy",
                 "stub"
             ],
-            "time": "2020-01-20T15:57:02+00:00"
+            "time": "2020-03-05T15:02:03+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
