@@ -1511,16 +1511,16 @@
         },
         {
             "name": "sertxudeveloper/lyra",
-            "version": "v0.8.1",
+            "version": "v0.8.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:sertxudeveloper/Lyra.git",
-                "reference": "51eb6956fbae1e9ec8e6e2d040118b3a1872b7ae"
+                "reference": "7efcd36bcbc190330a41ad2486766f289b832ca3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sertxudeveloper/Lyra/zipball/51eb6956fbae1e9ec8e6e2d040118b3a1872b7ae",
-                "reference": "51eb6956fbae1e9ec8e6e2d040118b3a1872b7ae",
+                "url": "https://api.github.com/repos/sertxudeveloper/Lyra/zipball/7efcd36bcbc190330a41ad2486766f289b832ca3",
+                "reference": "7efcd36bcbc190330a41ad2486766f289b832ca3",
                 "shasum": ""
             },
             "require": {
@@ -1562,10 +1562,10 @@
                 "panel"
             ],
             "support": {
-                "source": "https://github.com/sertxudeveloper/Lyra/tree/v0.8.1",
+                "source": "https://github.com/sertxudeveloper/Lyra/tree/v0.8.2",
                 "issues": "https://github.com/sertxudeveloper/Lyra/issues"
             },
-            "time": "2020-03-08T19:45:45+00:00"
+            "time": "2020-03-08T20:28:00+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
