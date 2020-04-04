@@ -19,7 +19,7 @@ class MostPopularPosts extends OrderedList {
     foreach ($posts as $post) {
       $ranking[] = [
         "name" => $post->title,
-        "link" => "posts/$post->id",
+        "link" => "resources/posts/$post->id",
         "value" => $post->views,
       ];
     }

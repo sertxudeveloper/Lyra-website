@@ -19,7 +19,7 @@ class MostPopularCategories extends OrderedList {
     foreach ($categories as $category) {
       $ranking[] = [
         "name" => $category->name,
-        "link" => "categories/$category->id",
+        "link" => "resources/categories/$category->id",
         "value" => $category->posts->count(),
       ];
     }

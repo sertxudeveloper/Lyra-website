@@ -20,7 +20,7 @@ class CreatePostsTable extends Migration
             $table->string('excerpt');
             $table->string('poster')->nullable();
             $table->string('category_id');
-            $table->bigInteger('views', false, true);
+            $table->bigInteger('views', false, true)->default(0);
             $table->text('body');
             $table->timestamps();
             $table->softDeletes();

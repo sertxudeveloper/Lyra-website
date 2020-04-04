@@ -19,7 +19,7 @@ class MostPopularTags extends OrderedList {
     foreach ($tags as $tag) {
       $ranking[] = [
         "name" => $tag->name,
-        "link" => "tags/$tag->id",
+        "link" => "resources/tags/$tag->id",
         "value" => $tag->posts->count(),
       ];
     }
