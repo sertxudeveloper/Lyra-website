@@ -43,6 +43,6 @@ class ResetAll extends Command
         $process = new Process('rm -rf storage/app && cp -r storage/empty storage/app');
         $process->run();
         echo $process->getOutput();
-        return true;
+        return 0;
     }
 }
