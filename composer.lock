@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6558f74828bca9ebecac73d90cea4b1a",
+    "content-hash": "fdc65c056f96264dac64ac971ce61fb2",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1965,6 +1965,58 @@
             "time": "2020-03-29T20:13:32+00:00"
         },
         {
+            "name": "sertxudeveloper/laravel-translatable",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sertxudeveloper/laravel-translatable.git",
+                "reference": "14463a337a90c1b9ec56b34dccc438b76f860e6b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sertxudeveloper/laravel-translatable/zipball/14463a337a90c1b9ec56b34dccc438b76f860e6b",
+                "reference": "14463a337a90c1b9ec56b34dccc438b76f860e6b",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "^5.6.0|^6.0|^7.0",
+                "php": "^7.1"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "SertxuDeveloper\\Translatable\\TranslatableServiceProvider"
+                    ],
+                    "aliases": {
+                        "Translatable": "SertxuDeveloper\\Translatable\\Facades\\Translatable"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "SertxuDeveloper\\Translatable\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sertxu Developer",
+                    "email": "dev.sertxu@gmail.com"
+                }
+            ],
+            "description": "Manage localized routes and use translatable models in a Laravel app.",
+            "keywords": [
+                "laravel",
+                "localization",
+                "translatable"
+            ],
+            "time": "2020-03-17T22:58:20+00:00"
+        },
+        {
             "name": "swiftmailer/swiftmailer",
             "version": "v6.2.3",
             "source": {
@@ -3896,6 +3948,12 @@
                 "flare",
                 "reporting"
             ],
+            "funding": [
+                {
+                    "url": "https://www.patreon.com/spatie",
+                    "type": "patreon"
+                }
+            ],
             "time": "2020-03-02T15:52:04+00:00"
         },
         {
@@ -5096,6 +5154,12 @@
                 "highlight.js",
                 "highlight.php",
                 "syntax"
+            ],
+            "funding": [
+                {
+                    "url": "https://github.com/allejo",
+                    "type": "github"
+                }
             ],
             "time": "2020-03-02T05:59:21+00:00"
         },
