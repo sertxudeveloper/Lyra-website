@@ -11,7 +11,7 @@ Todas las correcciones de errores deberían enviarse a la rama de la última ver
 
 Por ejemplo, si quiere enviar una corrección de un fallo a la última versión "**v1.5.9**", debería enviarla a la rama "**1.x**".
 
-La rama "master" sólo debería recibir correcciones de fallos si el fallo está sólo en esa rama y no en alguna de las versiones publicadas.
+La rama `master` sólo debería recibir correcciones de fallos si el fallo está sólo en esa rama y no en alguna de las versiones publicadas.
 
 ## Archivos compilados
 
@@ -19,5 +19,6 @@ Si va a enviar un cambio que afecta a un fichero compilado, como la mayoría de 
 Todos los archivos compilados serán generados y publicados por los desarrolladores de Lyra.
 
 ## Vulnerabilidades de seguridad
+
 Si encuentra una vulnerabilidad de seguridad, **NO** abra una incidencia, envíe un correo electrónico a **lyra@sertxu.dev**.
 Publicaremos una nueva versión tan pronto como el error sea corregido.

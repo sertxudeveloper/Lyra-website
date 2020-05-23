@@ -1,6 +1,7 @@
 # Modos de funcionamiento
 
 Lyra dispone de dos modos de funcionamiento.
+[[toc]]
 
 ## Básico
 

@@ -63,15 +63,16 @@ Muestra un campo de entrada tipo fecha
 Date::make('Birth')
 ```
 
-
 ## Campo DateTime
 
 Muestra un campo tipo datetime el cual cuenta con fecha y hora.
+
 ``` php
 DateTime::make('Published At')
 ```
 
 ## Campo Fichero
+
 Este campo permite la subida de cualquier tipo de fichero.
 
 ``` php
@@ -79,6 +80,7 @@ File::make('Attachment')
 ```
 
 ## Campo Imagen
+
 Permite la subida de imágenes ofreciendo una previsualización de la misma.
 
 ``` php
@@ -86,13 +88,7 @@ Image::make('Thumbnail')
 ```
 
 ## Campo Markdown
-Muestra el editor EasyMDE de Markdown.
 
-``` php
-Markdown::make('Body')
-```
-
-## Campo Markdown
 Muestra el editor EasyMDE de Markdown.
 
 ``` php
@@ -100,6 +96,7 @@ Markdown::make('Body')
 ```
 
 ## Campo Boleano
+
 Este campo se utiliza para representar un valor booleano, muestra un :heavy_check_mark: cuando el valor es  verdadero, y un :x: si el valor es falso.
 
 ``` php
@@ -123,8 +120,7 @@ Boolean:make('Active')->checked()
 
 ## Campo Select
 
-Este  campo  muestra  un  desplegable  seleccionable  con  múltiples  opciones,  que  las opciones 
-deben ser añadidas al campo utilizando el método `options`.
+Este campo muestra un desplegable seleccionable con múltiples opciones, que las opciones deben ser añadidas al campo utilizando el método `options`.
 
 ``` php
 Select::make('Status')->options([
@@ -142,6 +138,7 @@ Select::make('Status')->options([
 ```
 
 Para definir un valor por defecto debe utilizar el método `default`.
+
 ``` php
 Select::make('Status')->options([
   'Draft', 'Pending', 'Published'

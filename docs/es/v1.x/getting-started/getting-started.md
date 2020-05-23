@@ -42,7 +42,7 @@ public function fields()
 }
 ```
 
-Los recursos recién creados solo cuentan con el campo `Id`, en la sección "**Campos**" encontrará los diferentes tipos de campos que existen y su modo de funcionamiento.
+Los recursos recién creados solo cuentan con el campo `Id`, en la sección "**[Campos](/es/v1.x/fields/defining.html)**" encontrará los diferentes tipos de campos que existen y su modo de funcionamiento.
 
 ## Registrar recursos
 
@@ -63,5 +63,5 @@ Dentro de la configuración encontrará el array `menu`, a continuación, puede 
 ```
 
 El orden de apariencia en el array `menu` determinará el orden del menú de todos los usuarios.
-Para saber más acerca del menú vaya a la "**Configuración del menú**".
+Para saber más acerca del menú vaya a la "**[Configuración del menú](/es/v1.x/advanced/menu-configuration.md)**".
 

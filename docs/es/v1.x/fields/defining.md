@@ -21,7 +21,7 @@ use SertxuDeveloper\Lyra\Fields\Text;
 public function fields()
 {
   return [
-    ID::make('Id')->sortable(),
+    Id::make('Id')->sortable(),
     Text::make('Name'),
   ];
 }

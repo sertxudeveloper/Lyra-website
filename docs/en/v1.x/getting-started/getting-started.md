@@ -42,7 +42,7 @@ public function fields()
 }
 ```
 
-Newly created resources only have the `Id` field, in the section "**Fields**" you will find the different types of fields that exist and how they work.
+Newly created resources only have the `Id` field, in the section "**[Fields](/en/v1.x/fields/defining.html)**" you will find the different types of fields that exist and how they work.
 
 ## Register resources
 
@@ -63,5 +63,5 @@ Within the configuration you will find the `menu` array, below you can see an ex
 ```
 
 The order of appearance in the `menu` array will determine the menu order for all users.
-To learn more about the menu, go to "**Menu Settings**".
+To learn more about the menu, go to "**[Menu Settings](/en/v1.x/advanced/menu-configuration.md)**".
 

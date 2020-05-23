@@ -1,6 +1,7 @@
 # Sistema de traducciones
 
-Lyra cuenta con un sistema de traducciones que se integra con el paquete `sertxudeveloper/laravel-translatable` para activar las traducciones en Lyra utilizando este paquete, debe modificar el fichero de configuración.
+Lyra cuenta con un sistema de traducciones que se integra con el paquete `sertxudeveloper/laravel-translatable`.
+Para activar las traducciones en Lyra utilizando este paquete, debe modificar el fichero de configuración.
 
 ``` php
 "translator" => [

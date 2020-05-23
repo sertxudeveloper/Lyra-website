@@ -1,6 +1,7 @@
 # Guía de actualización
 
-Lyra utiliza el versionado semántico para proporcionar un número de versión. El número de versión `MAJOR.MINOR.PATCH` se incrementará:
+Lyra utiliza el [versionado semántico](https://semver.org/) para proporcionar un número de versión.
+El número de versión `MAJOR.MINOR.PATCH` se incrementará:
 
 - `MAJOR`: Cuando se realicen cambios en el núcleo y sea incompatible con las versiones anteriores.
 - `MINOR`: Cuando se hayan añadido funciones o cambios retrocompatibles con versiones anteriores.

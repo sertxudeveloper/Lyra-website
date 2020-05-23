@@ -55,7 +55,7 @@ Para registrar un asset debe seguir el siguiente ejemplo.
 Lyra::asset('test-component-picture', __DIR__ . '/../dist/img/picture.png');
 ```
 
-Debe tener en cuenta que el nombre del asset debe ser único, de lo contrario puede sobreescribir alguna ruta ya existente.
+Debe tener en cuenta que el nombre del asset debe ser único, de lo contrario puede sobrescribir alguna ruta ya existente.
 
 ### Registrar estilo CSS
 
@@ -65,7 +65,7 @@ Para registrar un estilo CSS debe seguir el siguiente ejemplo.
 Lyra::style('test-component-style, __DIR__ . '/../dist/css/component.css');
 ```
 
-Debe tener en cuenta que el nombre del estilo CSS debe ser único, de lo contrario puede sobreescribir alguna ruta ya existente.
+Debe tener en cuenta que el nombre del estilo CSS debe ser único, de lo contrario puede sobrescribir alguna ruta ya existente.
 
 ### Registrar script JavaScript
 
@@ -75,6 +75,6 @@ Para registrar un script JavaScript debe seguir el siguiente ejemplo.
 Lyra::script('test-component-script, __DIR__ . '/../dist/js/component.js);
 ```
 
-Debe tener en cuenta que el nombre del script JavaScript debe ser único, de lo contrario puede sobreescribir alguna ruta ya existente.
+Debe tener en cuenta que el nombre del script JavaScript debe ser único, de lo contrario puede sobrescribir alguna ruta ya existente.
 
 Los scripts se añadirán al final de la etiqueta HTML `<body>`.

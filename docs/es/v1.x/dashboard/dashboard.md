@@ -18,7 +18,7 @@ Ahora solo falta crear las diferentes tarjetas para mostrar información relevan
 
 ## Tarjetas
 
-Para crear una tarjeta hay que ejecutar el siguiente comando indicando el nombre de la tarjeta
+Para crear una tarjeta hay que ejecutar el siguiente comando indicando el nombre de la tarjeta.
 
 ``` php
 $ php artisan lyra:card {name}
