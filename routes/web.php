@@ -16,3 +16,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('docs/assets/{asset}', 'DocsController@asset')->where('asset', '.*');
+
+Route::get('docs/{locale?}/{version?}/{path?}','DocsController@index')
+  ->where('locale', '(\w+){2}')
+  ->where('version', 'v[0-9].x')
+  ->where('path', '.*');
+
+Route::get('docs/{path?}','DocsController@index')->where('path', '.*');
