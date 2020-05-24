@@ -13,11 +13,13 @@ module.exports = {
   },
   head: [
     // Head HTML tags
+    ['link', { rel: 'icon', href: '/assets/img/icon.png' }],
   ],
   // theme: 'vue',
   themeConfig: {
     docsDir: 'docs',
-    repo: 'sertxudeveloper/Lyra-website',
+    repo: 'sertxudeveloper/Lyra',
+    docsRepo: 'sertxudeveloper/Lyra-website',
     editLinks: true,
     editLinkText: 'Help us improve this page!',
     displayAllHeaders: true,
@@ -139,7 +141,7 @@ module.exports = {
         selectText: 'Idiomas',
         nav: [
           {
-            text: 'Home',
+            text: 'Inicio',
             link: 'https://lyra.sertxudeveloper.com',
             target:'_self'
           },
