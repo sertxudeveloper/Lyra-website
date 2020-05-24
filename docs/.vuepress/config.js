@@ -35,7 +35,8 @@ module.exports = {
         nav: [
           {
             text: 'Home',
-            link: 'https://lyra.sertxudeveloper.com'
+            link: 'https://lyra.sertxudeveloper.com',
+            target:'_self'
           },
           {
             text: "Version",
@@ -139,7 +140,8 @@ module.exports = {
         nav: [
           {
             text: 'Home',
-            link: 'https://lyra.sertxudeveloper.com'
+            link: 'https://lyra.sertxudeveloper.com',
+            target:'_self'
           },
           {
             text: "Versión",
