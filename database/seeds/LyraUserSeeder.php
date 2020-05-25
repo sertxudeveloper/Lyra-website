@@ -1,8 +1,8 @@
 <?php
 
-use App\User;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\Hash;
+use SertxuDeveloper\Lyra\Models\User;
 
 class LyraUserSeeder extends Seeder
 {

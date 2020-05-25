@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fdc65c056f96264dac64ac971ce61fb2",
+    "content-hash": "3ed527098f3989d368f91546f289936d",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2015,6 +2015,66 @@
                 "translatable"
             ],
             "time": "2020-03-17T22:58:20+00:00"
+        },
+        {
+            "name": "sertxudeveloper/lyra",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sertxudeveloper/Lyra.git",
+                "reference": "b2cd81f5bb83f88564dab238bb3917cd1509457c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sertxudeveloper/Lyra/zipball/b2cd81f5bb83f88564dab238bb3917cd1509457c",
+                "reference": "b2cd81f5bb83f88564dab238bb3917cd1509457c",
+                "shasum": ""
+            },
+            "require": {
+                "ext-fileinfo": "*",
+                "ext-json": "*",
+                "ext-zip": "*",
+                "illuminate/support": "^6.0|^7.0"
+            },
+            "suggest": {
+                "sertxudeveloper/laravel-translatable": "Needed to add multilanguage support"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "SertxuDeveloper\\Lyra\\LyraServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "SertxuDeveloper\\Lyra\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sertxu Developer",
+                    "email": "dev.sertxu@gmail.com"
+                }
+            ],
+            "description": "Lyra is an administration panel for Laravel for bootstrap your app and turn ideas into reality.",
+            "keywords": [
+                "admin",
+                "laravel",
+                "panel"
+            ],
+            "funding": [
+                {
+                    "url": "https://www.patreon.com/sertxudeveloper",
+                    "type": "patreon"
+                }
+            ],
+            "time": "2020-05-25T01:43:07+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
