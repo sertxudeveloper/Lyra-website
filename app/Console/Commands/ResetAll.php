@@ -38,9 +38,18 @@ class ResetAll extends Command
      */
     public function handle()
     {
-        $this->call('migrate:fresh', ['--force' => true]);
+        $this->call('db:wipe', ['--force' => true]);
+
+        $this->call('migrate', ['--force' => true]);
+        $this->call('migrate', ['--force' => true, '--path' => 'database/migrations/lyra']);
+
         $this->call('db:seed', ['--force' => true]);
-        $process = new Process('rm -rf storage/app && cp -r storage/empty storage/app');
+
+        $process = new Process(['rm', '-rf', 'storage/app']);
+        $process->run();
+        echo $process->getOutput();
+
+        $process = new Process(['cp', '-r', 'storage/empty', 'storage/app']);
         $process->run();
         echo $process->getOutput();
         return 0;
