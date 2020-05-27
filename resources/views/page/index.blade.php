@@ -63,7 +63,7 @@
       <div class="col-7 mx-auto">
         <h2 class="mb-5 text-center display-4">Tutorial</h2>
         <iframe width="720" height="405" class="d-block mx-auto"
-                src="https://www.youtube.com/embed/VIDEO_ID?autoplay=1&rel=0" frameborder="0"
+                src="https://www.youtube.com/embed/hUpc8ha1bIw?rel=0" frameborder="0"
                 allow="autoplay; encrypted-media;" allowfullscreen></iframe>
       </div>
     </div>

@@ -2096,12 +2096,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sertxudeveloper/Lyra.git",
-                "reference": "149f3cc2a382dedddc865e8e683251ecce7c18da"
+                "reference": "c58185f89d059ec8fbda4d906f0e1feb169a44f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sertxudeveloper/Lyra/zipball/149f3cc2a382dedddc865e8e683251ecce7c18da",
-                "reference": "149f3cc2a382dedddc865e8e683251ecce7c18da",
+                "url": "https://api.github.com/repos/sertxudeveloper/Lyra/zipball/c58185f89d059ec8fbda4d906f0e1feb169a44f0",
+                "reference": "c58185f89d059ec8fbda4d906f0e1feb169a44f0",
                 "shasum": ""
             },
             "require": {
@@ -2148,7 +2148,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2020-05-25T23:00:17+00:00"
+            "time": "2020-05-25T23:22:03+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
