@@ -13,7 +13,7 @@ module.exports = {
   },
   head: [
     // Head HTML tags
-    ['link', { rel: 'icon', href: '/assets/img/icon.png' }],
+    ['link', {rel: 'icon', href: '/assets/img/icon.png'}],
   ],
   // theme: 'vue',
   themeConfig: {
@@ -26,7 +26,6 @@ module.exports = {
     sidebarDepth: 2,
     smoothScroll: true,
     searchPlaceholder: 'Search...',
-    lastUpdated: 'Last Updated',
     markdown: {
       lineNumbers: true
     },
@@ -34,11 +33,12 @@ module.exports = {
       '/en/': {
         label: 'English',
         selectText: 'Languages',
+        lastUpdated: 'Last Updated',
         nav: [
           {
             text: 'Home',
             link: 'https://lyra.sertxudeveloper.com',
-            target:'_self'
+            target: '_self'
           },
           {
             text: "Version",
@@ -139,11 +139,12 @@ module.exports = {
       '/es/': {
         label: 'Español',
         selectText: 'Idiomas',
+        lastUpdated: 'Last Updated',
         nav: [
           {
             text: 'Inicio',
             link: 'https://lyra.sertxudeveloper.com',
-            target:'_self'
+            target: '_self'
           },
           {
             text: "Versión",
@@ -244,7 +245,6 @@ module.exports = {
     }
   },
   plugins: [
-    '@vuepress/last-updated',
-    '@vuepress/back-to-top',
+    ['@vuepress/back-to-top', true],
   ],
 };
