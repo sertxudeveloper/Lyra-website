@@ -5,24 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="/img/icon.png" sizes="75x75">
   <title>Lyra Website</title>
-  <meta name="description" content="Boost your application and turn your ideas into reality">
+  <meta name="description" content="Boost your application and turn your ideas into reality. Lyra is an administration panel for applications created with Laravel.">
 
   <!-- Google / Search Engine Tags -->
   <meta itemprop="name" content="Lyra Website">
-  <meta itemprop="description" content="Boost your application and turn your ideas into reality">
+  <meta itemprop="description" content="Boost your application and turn your ideas into reality. Lyra is an administration panel for applications created with Laravel.">
   <meta itemprop="image" content="https://lyra.sertxudeveloper.com/img/lyra_meta.png">
 
   <!-- Facebook Meta Tags -->
   <meta property="og:url" content="https://lyra.sertxudeveloper.com">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Lyra Website">
-  <meta property="og:description" content="Boost your application and turn your ideas into reality">
+  <meta property="og:description" content="Boost your application and turn your ideas into reality. Lyra is an administration panel for applications created with Laravel.">
   <meta property="og:image" content="https://lyra.sertxudeveloper.com/img/lyra_meta.png">
 
   <!-- Twitter Meta Tags -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Lyra Website">
-  <meta name="twitter:description" content="Boost your application and turn your ideas into reality">
+  <meta name="twitter:description" content="Boost your application and turn your ideas into reality. Lyra is an administration panel for applications created with Laravel.">
   <meta name="twitter:image" content="https://lyra.sertxudeveloper.com/img/lyra_meta.png">
 
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
