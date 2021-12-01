@@ -18,6 +18,10 @@ Route::get('/', function () {
     return view('page.index');
 });
 
+Route::get('/en', function () {
+    return view('page.index');
+});
+
 Route::get('docs/assets/{asset}', 'DocsController@asset')->where('asset', '.*');
 
 Route::get('docs/{locale?}/{version?}/{path?}','DocsController@index')
