@@ -24,7 +24,7 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-        $schedule->command('demo:reset --force')->daily();
+        $schedule->command('demo:reset')->daily();
     }
 
     /**
